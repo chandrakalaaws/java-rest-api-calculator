@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CalculatorApplication {
 
 	public static void main(String[] args) {
-                String name = null;
-		name.toString();
+                int value = 0;
+                value = value + 5;
 		SpringApplication.run(CalculatorApplication.class, args);
 	}
 
